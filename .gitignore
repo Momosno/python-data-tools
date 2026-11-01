@@ -1,3 +1,21 @@
+# --- Project data: never commit real data ---
+*.sql
+*.json
+*.csv
+output.json
+*.env
+
+# Audio files used by the transcriber (interviews can contain personal/medical info)
+*.wav
+*.mp3
+*.m4a
+*.ogg
+
+# Fake sample data used to try the parser (allowed on purpose)
+!usuarios-por-zonas/ejemplo/zonas.sql
+!usuarios-por-zonas/ejemplo/usuarios.sql
+!usuarios-por-zonas/ejemplo/u.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
